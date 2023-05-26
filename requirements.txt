@@ -3,3 +3,4 @@ PyPDF2
 langchain
 python-dotenv
 transformers
+openai
