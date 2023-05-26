@@ -74,7 +74,8 @@ if uploaded_file is not None:
         sumarry_chain = load_summarize_chain(
             llm=llm, chain_type='map_reduce', map_prompt=map_prompt_template)
 
-        output = sumarry_chain.run(texts)
+        with st.spinner('Loading...'):
+            output = sumarry_chain.run(texts)
         st.write(output)
 
     else:
