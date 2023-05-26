@@ -24,3 +24,5 @@ Welcome to **PDF Summarizer**, an AI-driven application that helps you extract e
 - PyPDF2
 
 Enjoy using the app and feel free to contribute!
+
+Check out the live app here: [PDF Summarizer](https://pdfsummary.streamlit.app/)
