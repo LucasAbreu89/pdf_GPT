@@ -1,4 +1,4 @@
+streamlit
 PyPDF2
 langchain
 dotenv
-pip==23.1.2
