@@ -2,3 +2,4 @@ streamlit
 PyPDF2
 langchain
 python-dotenv
+transformers
