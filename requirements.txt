@@ -4,3 +4,4 @@ langchain
 python-dotenv
 transformers
 openai
+tiktoken
