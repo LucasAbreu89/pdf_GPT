@@ -64,7 +64,8 @@ if uploaded_file is not None:
 
         llm = ChatOpenAI(temperature=0)
         map_prompt = """
-        Write a concise summary that a child of 5 years old can read of the following:
+        Feel Free to use analogies
+        Write a concise summary in simple terms of the following:
         "{text}"
         CONCISE SUMMARY:
         """
