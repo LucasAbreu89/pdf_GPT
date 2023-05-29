@@ -5,3 +5,5 @@ python-dotenv
 transformers
 openai
 tiktoken
+faiss-cpu
+streamlit-extras
