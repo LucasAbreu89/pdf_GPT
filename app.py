@@ -34,7 +34,7 @@ with st.sidebar:
     st.markdown("""
     This application can summarize at least 4 pages of a PDF. However, by providing your OpenAI API key, you can summarize more.
     """)
-    api_key = st.text_input("Enter your OpenAI API key:")
+    api_key = st.text_input("Enter your OpenAI API key:", type='password')
 
     if api_key:
         os.environ['OPENAI_API_KEY'] = api_key
